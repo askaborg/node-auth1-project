@@ -10,7 +10,7 @@ server.use(
     name: "notsession",
     secret: "no secret cookies allowed",
     cookie: {
-      maxAge: 1 * 24 * 60 * 60 * 1000,
+      maxAge: 60 * 60 * 1000,
       secure: false,
     },
     httpOnly: true,
